@@ -32,7 +32,7 @@ from django.utils.html import escape
 from django.utils.module_loading import import_string
 from django.utils.safestring import mark_safe
 from django.utils.timezone import now
-from django.utils.translation import ugettext_lazy as _, ugettext
+from django.utils.translation import gettext_lazy as _, ugettext
 from django.views.decorators.csrf import csrf_protect
 from reversion.admin import VersionAdmin
 from tabular_permissions.admin import UserTabularPermissionsMixin, GroupTabularPermissionsMixin
